@@ -14,14 +14,20 @@ jobs:
 
     steps:
   
+    - name: 检查分支
+      uses: actions/checkout@v2
+
+    - name: 安装 Python 3.7
+      uses: actions/setup-python@v1
+      with:
+          python-version: 3.7
     - name: Initialization environment 
       run: |
         cd ~
         sudo -E apt-get update
         sudo -E apt-get upgrade
-        sudo -E apt-get install wget python python-pip python3 python3-pip
-        sudo pip install bsdiff4
-        sudo python -m pip install protobuf
+        pip install bsdiff4
+        python -m pip install protobuf
 
     - name: Clean Up Disk Space
       run: |
