@@ -13,9 +13,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-  
-    - name: 检查分支
-      uses: actions/checkout@v2
 
     - name: 安装 Python 3.7
       uses: actions/setup-python@v1
@@ -24,8 +21,6 @@ jobs:
     - name: Initialization environment 
       run: |
         cd ~
-        sudo -E apt-get update
-        sudo -E apt-get upgrade
         pip install bsdiff4
         python -m pip install protobuf
 
