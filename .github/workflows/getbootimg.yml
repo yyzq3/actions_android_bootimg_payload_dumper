@@ -42,9 +42,9 @@ jobs:
        wget -O rom.zip ROM_URL
    
     - name: unzip the ROM
-	  run: |
-	   cd ~
-	   unzip unzip rom.zip -d payload_dumper
+      run: |
+       cd ~
+       unzip unzip rom.zip -d payload_dumper
     
     - name: extract the images
       run: |
