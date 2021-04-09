@@ -46,7 +46,7 @@ jobs:
     - name: unzip the ROM
       run: |
        cd ~
-       unzip unzip rom.zip -d payload_dumper
+       unzip rom.zip -d payload_dumper
     
     - name: extract the images
       run: |
