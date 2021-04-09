@@ -3,7 +3,7 @@
 
 
 ## 简介 ##
-这是一个利用github actions云端自动化提取刷机包payload.bin中的boot.img的脚本，使用了源码：https://github.com/vm03/payload_dumper
+这是一个利用github actions云端自动化提取刷机包payload.bin中的boot.img的脚本，感谢：https://github.com/vm03/payload_dumper
 
 ###使用###
 
