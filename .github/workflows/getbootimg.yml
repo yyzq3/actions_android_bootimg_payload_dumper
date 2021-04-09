@@ -21,7 +21,7 @@ jobs:
         sudo -E apt-get install wget python python-pip python3 python3-pip
         pip3 install setuptools
         pip3 install bsdiff4
-	python -m pip install protobuf
+	pip3 install protobuf
 
     - name: Clean Up Disk Space
       run: |
