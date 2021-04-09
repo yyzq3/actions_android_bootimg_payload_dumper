@@ -22,7 +22,7 @@ jobs:
         pip3 install setuptools
         pip3 install bsdiff4
 	python -m pip install protobuf
-        
+
     - name: Clean Up Disk Space
       run: |
         docker rmi `docker images -q`
