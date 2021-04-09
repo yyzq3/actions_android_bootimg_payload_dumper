@@ -2,10 +2,10 @@
 利用Github Actions云端解包payload.bin并提取boot.img
 
 
-##简介
+## 简介 ##
 这是一个利用github actions云端自动化提取刷机包payload.bin中的boot.img的脚本。
 
-##使用
+# 使用
 
 我测试的是Redmi K40的，其他相同情况的同理。
 
