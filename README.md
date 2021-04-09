@@ -3,7 +3,7 @@
 
 
 ## 简介 ##
-这是一个利用github actions云端自动化提取刷机包payload.bin中的boot.img的脚本，感谢：https://github.com/vm03/payload_dumper
+这是一个利用github actions云端自动化提取刷机包payload.bin中的boot.img的脚本。
 
 ###使用###
 
@@ -15,4 +15,6 @@
 
 最后，仅仅需要按下Star小星星按钮，就可以提取刷机包payload.bin中的boot.img
 
-查看进度，在Actions菜单，get_bootimg_from_payload→make→Upload the bootimg to WeTransfer中找到Download link:xxx就是下载地址
+查看进度，在Actions菜单，get_bootimg_from_payload→make→Upload the bootimg to WeTransfer中找到Download link:xxx就是下载地址。
+
+采用并感谢这个项目：https://github.com/vm03/payload_dumper
