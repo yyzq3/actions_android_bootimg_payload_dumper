@@ -1,4 +1,4 @@
-name: get_bootimg_from_payload
+name: get_bootimg_from_payload.bin
 
 on:
   watch:
@@ -48,7 +48,7 @@ jobs:
        cd ~
        unzip rom.zip -d payload_dumper
     
-    - name: extract the payload
+    - name: extract the payload.bin
       run: |
        cd ~
        cd payload_dumper
